@@ -1,0 +1,6 @@
+.env
+.venv
+.idea
+uv.lock
+vectorstore
+__pycache__
