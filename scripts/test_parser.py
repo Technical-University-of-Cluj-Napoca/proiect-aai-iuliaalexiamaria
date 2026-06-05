@@ -4,8 +4,8 @@ from src.agents.parser_agent import DocumentParserAgent
 
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PDF_PATH = os.path.join(BASE_DIR, "data", "contract_exemplu.pdf")
-OUTPUT_PATH = os.path.join(BASE_DIR, "data", "contract_exemplu_parsed.json")
+PDF_PATH = os.path.join(BASE_DIR, "data", "contract_prestari_servicii.pdf")
+OUTPUT_PATH = os.path.join(BASE_DIR, "data", "contract_prestari_servicii_parsed.json")
 
 
 if __name__ == "__main__":
