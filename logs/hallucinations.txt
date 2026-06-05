@@ -1,0 +1,13 @@
+LOG ANALIZĂ CRITICĂ HALUCINAȚII - AGENT EVALUARE RISC
+
+[CAZ 1] TIP: Halucinație de Referință Legislativă (Invenție text extern)
+- Clauză testată: Clauză penalități 10% pe zi.
+- Comportament detectat inițial: LLM-ul a generat în câmpul 'issues' afirmația: "Conform Articolului 42 din Legea Penalităților Comerciale din România, cuantumul maxim este 0.1%".
+- Analiză critică: "Legea Penalităților Comerciale" nu există în realitate pe teritorul României, iar legislația stocată în corpus/ nu conținea acest string. Modelul a folosit cunoștințe parametrice externe inventate pentru a-și argumenta decizia.
+- Mitigare aplicată: S-a adăugat o regulă strictă de grounding în System Prompt ("Nu inventa legi sau articole care nu apar explicit în contextul legal primit").
+
+[CAZ 2] TIP: Halucinație de Sursă în Metadate (Citație Falsă)
+- Clauză testată: Clauză privind transferul transfrontalier al datelor.
+- Comportament detectat inițial: În vectorul de 'references', modelul a trecut ["directiva_europeana_date.pdf", "regulament_anpc_2025.pdf"].
+- Analiză critică: Fișierele enumerate mai sus nu existau în folderul local corpus/. Modelul a ghicit/halucinat denumiri logice de fișiere care ar fi putut conține legislația respectivă, în loc să citească headerul de sursă generat de RAGAgent (e.g., oug_34_2014_drepturile_consumatorilor.pdf).
+- Mitigare aplicată: S-a modificat injectorul de context pentru a include delimitatori expliciți de structură: "--- SURSA FIȘIER: {chunk.source} ---" înaintea fiecărui segment de text, forțând modelul să citească direct stringul real al fișierului de pe disc.
