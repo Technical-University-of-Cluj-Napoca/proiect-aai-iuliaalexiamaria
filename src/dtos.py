@@ -1,7 +1,7 @@
 from enum import Enum
 from typing import Optional
 
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 
 class ClauseType(str, Enum):
@@ -39,13 +39,13 @@ class ClauseDTO(BaseModel):
     section: str
     text: str
     page: int
-    type: ClauseType
+    type: ClauseType = ClauseType.altele
 
 
 class DocumentMetadataDTO(BaseModel):
     title: str = ""
     page_count: int = 0
-    parties: list[PartyDTO] = []
+    parties: list[PartyDTO] = Field(default_factory=list)
     signing_date: Optional[str] = None
     effective_date: Optional[str] = None
     value: str = ""
@@ -54,8 +54,8 @@ class DocumentMetadataDTO(BaseModel):
 
 class ParsedDocumentDTO(BaseModel):
     metadata: DocumentMetadataDTO
-    sections: list[SectionDTO]
-    clauses: list[ClauseDTO]
+    sections: list[SectionDTO] = Field(default_factory=list)
+    clauses: list[ClauseDTO] = Field(default_factory=list)
 
 
 class RetrievalResultDTO(BaseModel):
@@ -66,16 +66,16 @@ class RetrievalResultDTO(BaseModel):
 
 class RiskAssessmentDTO(BaseModel):
     clause_id: str
-    risk_level: RiskLevel
-    issues: list[str]
-    references: list[str]
+    risk_level: RiskLevel = RiskLevel.NECUNOSCUT
+    issues: list[str] = Field(default_factory=list)
+    references: list[str] = Field(default_factory=list)
     context_was_empty: bool = False
 
 
 class RecommendationDTO(BaseModel):
     clause_id: str
     original_text: str
-    reformulated_text: str
-    explanation: str
-    sources: list[str]
+    reformulated_text: str = ""
+    explanation: str = ""
+    sources: list[str] = Field(default_factory=list)
     candidates: Optional[list[str]] = None
