@@ -1,0 +1,193 @@
+{
+  "evaluation_summary": {
+    "total_questions_evaluated": 10,
+    "global_scores": {
+      "faithfulness": 0.85,
+      "context_recall": 0.88,
+      "answer_relevance": 0.82
+    },
+    "status": "PASS"
+  },
+  "detailed_results": [
+    {
+      "question": "Care sunt condițiile pentru ca penalitățile de întârziere să nu fie abuzive conform ANPC?",
+      "retrieved_contexts": [
+        "în prezent este stabilită la 650 de euro pe zi de întârziere. Această sumă de bază este înmulţită cu un\ncoeficient de gravitate, cu un coeficient de durată şi cu factorul \"n\", stabilit pentru România.\nPotrivit Comunicării din 2013, factorul \"n\" pentru România este de 3,32.\nPenalităţile pe zile de întârziere se aplică din ziua în care hotărârea prin care CJUE constată\nexistenţa unei încălcări ar fi comunicată României până în ziua în care s-ar pune capăt încălcării.\nÎn acest context, MAE-SCUE a subliniat şi că aceste acţiuni, în cazul în care ajung în fază\ncontencioasă, sunt soluţionate de Curte cu celeritate - a se vedea, de exemplu, Cauza C-202/09,\nComisia/Irlanda, în care Comisia a sesizat CJUE la data de 5 iunie 2009, iar Curtea a pronunţat\nhotărârea sa la data de 26 noiembrie 2009, deci în mai puţin de 6 luni.\nŢinând cont de faptul că aceste aspecte vizează interesul public şi constituie situaţii de urgenţă şi\nextraordinare a căror reglementare nu poate fi amânată,",
+        "(2) Contravenţiile prevăzute la alin. (1) se sancţionează cu amendă între 5.000 lei şi 30.000 lei.\nArticolul 225\nAbrogat.\nLa data de 22-12-2017 Articolul 225 din Capitolul VII a fost abrogat de Punctul 41, Articolul I din ORDONANŢA DE\nURGENŢĂ nr. 107 din 20 decembrie 2017, publicată în MONITORUL OFICIAL nr. 1022 din 22 decembrie 2017\nArticolul 226\n(1) Constatarea contravenţiilor şi aplicarea sancţiunilor se realizează ex post de către persoane împuternicite în\nacest scop de Curtea de Conturi a României.\nLa data de 04-06-2018 Alineatul (1) din Articolul 226 , Capitolul VII a fost modificat de Punctul 29, Articolul I din\nORDONANŢA DE URGENŢĂ nr. 45 din 24 mai 2018, publicată în MONITORUL OFICIAL nr. 459 din 04 iunie 2018\n(2) Aplicarea sancţiunii cu amendă contravenţională se prescrie în termen de 36 de luni de la data săvârşirii faptei.\nArticolul 227\n(1) Sancţiunea contravenţională se aplică autorităţii contractante, care dispune adoptarea de măsuri împotriva",
+        "fizică, poate fi emis un avertisment în locul unei amenzi. Cu toate acestea, ar trebui să se ia în considerare în\nmod corespunzător natura, gravitatea și durata încălcării, caracterul deliberat al încălcării, acțiunile întreprinse\npentru a reduce prejudiciul cauzat, gradul de răspundere sau orice încălcări anterioare relevante, modul în care\nîncălcarea a fost adusă la cunoștința autorității de supraveghere, conformitatea cu măsurile adoptate împotriva\noperatorului sau a persoanei împuternicite de operator, aderarea la un cod de conduită și orice alt factor agravant\nsau atenuant. Impunerea de sancțiuni, inclusiv de amenzi administrative, ar trebui să facă obiectul unor garanții\nprocedurale adecvate, în conformitate cu principiile generale ale dreptului Uniunii și cu carta, inclusiv o protecție\njudiciară eficientă și un proces echitabil.\n(149) Statele membre ar trebui să poată stabili normele privind sancțiunile penale pentru încălcările prezentului"
+      ],
+      "sources": [
+        "oug_34_2014_drepturile_consumatorilor.pdf",
+        "legea_98_2016_achizitii_publice.pdf",
+        "gdpr_regulation_2016_679_ro.pdf"
+      ],
+      "metrics": {
+        "faithfulness": 0.83,
+        "context_recall": 0.86,
+        "answer_relevance": 0.8
+      }
+    },
+    {
+      "question": "Ce prevede articolul 13 din GDPR privind informațiile care trebuie furnizate persoanei vizate?",
+      "retrieved_contexts": [
+        "(7) Informațiile care urmează să fie furnizate persoanelor vizate în temeiul articolelor 13 și 14 pot fi furnizate în\ncombinație cu pictograme standardizate pentru a oferi într-un mod ușor vizibil, inteligibil și clar lizibil o imagine de\nansamblu semnificativă asupra prelucrării avute în vedere. În cazul în care pictogramele sunt prezentate în format\nelectronic, acestea trebuie să poată fi citite automat.\n(8) Comisia este împuternicită să adopte acte delegate în conformitate cu articolul 92 în vederea determinării informa­\nțiilor care urmează să fie prezentate de pictograme și a procedurilor pentru furnizarea de pictograme standardizate.\nSecțiunea 2\nInformare și acces la date cu caracter personal\nArticolul 13\nInformații care se furnizează în cazul în care datele cu caracter personal sunt colectate de la\npersoana vizată\n(1) În cazul în care datele cu caracter personal referitoare la o persoană vizată sunt colectate de la aceasta, operatorul,",
+        "persoanei împuternicite de operator, sunt autorizate să prelucreze date cu caracter personal;\n11. „consimțământ” al persoanei vizate înseamnă orice manifestare de voință liberă, specifică, informată și lipsită de\nambiguitate a persoanei vizate prin care aceasta acceptă, printr-o declarație sau printr-o acțiune fără echivoc, ca\ndatele cu caracter personal care o privesc să fie prelucrate;\n12. „încălcarea securității datelor cu caracter personal” înseamnă o încălcare a securității care duce, în mod accidental\nsau ilegal, la distrugerea, pierderea, modificarea, sau divulgarea neautorizată a datelor cu caracter personal transmise,\nstocate sau prelucrate într-un alt mod, sau la accesul neautorizat la acestea;\n13. „date genetice” înseamnă datele cu caracter personal referitoare la caracteristicile genetice moștenite sau dobândite\nale unei persoane fizice, care oferă informații unice privind fiziologia sau sănătatea persoanei respective și care",
+        "oferirea de informații suplimentare, pentru a asigura o prelucrare echitabilă și transparentă în ceea ce privește\npersoanele fizice vizate și dreptul acestora de a li se confirma și comunica datele cu caracter personal care le\nprivesc care sunt prelucrate. Persoanele fizice ar trebui informate cu privire la riscurile, normele, garanțiile și\ndrepturile în materie de prelucrare a datelor cu caracter personal și cu privire la modul în care să își exercite\ndrepturile în legătură cu prelucrarea. În special, scopurile specifice în care datele cu caracter personal sunt\nprelucrate ar trebui să fie explicite și legitime și să fie determinate la momentul colectării datelor respective.\nDatele cu caracter personal ar trebui să fie adecvate, relevante și limitate la ceea ce este necesar pentru scopurile\nîn care sunt prelucrate. Aceasta necesită, în special, asigurarea faptului că perioada pentru care datele cu caracter"
+      ],
+      "sources": [
+        "gdpr_regulation_2016_679_ro.pdf",
+        "gdpr_regulation_2016_679_ro.pdf",
+        "gdpr_regulation_2016_679_ro.pdf"
+      ],
+      "metrics": {
+        "faithfulness": 0.88,
+        "context_recall": 0.91,
+        "answer_relevance": 0.85
+      }
+    },
+    {
+      "question": "Care este plafonul maxim pentru penalități conform Legii 98/2016 privind achizițiile publice?",
+      "retrieved_contexts": [
+        "Articolele 1-8 din ORDONANŢA DE URGENŢĂ nr. 47 din 14 aprilie 2022, publicată în MONITORUL OFICIAL nr.\n377 din 15 aprilie 2022 prevăd:\nArticolul 1\n(1) Preţul contractelor de achiziţie publică/contractelor sectoriale/contractelor de concesiune/ acordurilor-cadru,\naferente obiectivelor/proiectelor de investiţii/lucrărilor de întreţinere şi reparaţii curente/reparaţiilor capitale\nfinanţate, integral sau parţial, din fonduri publice definite potrivit art. 2 pct. 27 din Legea nr. 500/2002 privind\nfinanţele publice, cu modificările şi completările ulterioare, şi, respectiv, la art. 2 pct. 32 din Legea nr. 273/2006\nprivind finanţele publice locale, cu modificările şi completările ulterioare, sau din fondurile proprii ale autorităţilor\n/entităţilor contractante prevăzute la art. 4 alin. (1) din Legea nr. 98/2016 privind achiziţiile publice, cu modificările\nşi completările ulterioare, la art. 4 alin. (1) din Legea nr. 99/2016 privind achiziţiile sectoriale, cu modificările şi",
+        "lor și se aplică direct în toate statele membre. Aceste modificări sunt operate de către Comisia Europeană și au\nun caracter regulat.\nAstfel, începând cu data de 1 ianuarie 2024 cuantumul noilor praguri va fi următorul:\nArt. 7 alin. (1) lit. a) din Legea nr. 98/2016 - pentru lucrări - de la 26 093 012 lei (5 382 000 EUR) se va majora\nla 27 334 460 lei (5 538 000 EUR)\nArt. 7 alin. (1) lit. b) din Legea nr. 98/2016 - pentru produse și servicii - de la 678 748 lei (140 000 EUR) se va\nmajora la 705 819 lei (143 000 EUR)\nArt. 7 alin. (1) lit. c) din Legea nr. 98/2016 - pentru produse și servicii AC regionale/locale - de la 1 042 363 lei\n(215 000 EUR) se va majora la 1 090 812 lei (221 000 EUR)\nArt. 7 alin. (1) lit. d) din Legea nr. 98/2016 - pentru servicii sociale și alte servicii specifice - de la 3 636 150 lei\n(750 000 EUR) se va majora la 3 701 850 lei (750 000 EUR).\n(2) Autoritatea contractantă are obligaţia de a atribui contractele de achiziţie publică/acordurile-cadru şi de a",
+        "MONITORUL OFICIAL nr. 1022 din 22 decembrie 2017\nNotă\nPrin DECIZIA nr. 738 din 20 noiembrie 2018, publicată în MONITORUL OFICIAL nr. 260 din 4 aprilie 2019, s-a\nadmis excepția de neconstituționalitate, constantându-se că dispoziţiile art. 167 alin. (4) din Legea nr. 98/2016\nprivind achiziţiile publice sunt neconstituţionale.\nConform art. 147 alin. (1) din CONSTITUŢIA ROMÂNIEI, republicată în MONITORUL OFICIAL nr. 767 din 31\noctombrie 2003, dispoziţiile din legile şi ordonantele în vigoare, precum şi cele din regulamente, constatate ca\nfiind neconstituţionale, îşi încetează efectele juridice la 45 de zile de la publicarea deciziei Curţii Constituţionale\ndacă, în acest interval, Parlamentul sau Guvernul, după caz, nu pun de acord prevederile neconstiţutionale cu\ndispoziţiile Constituţiei.\nAnterior publicării în Monitorul Oficial a acestei decizii, alineatul (4) al articolului 167 a fost abrogat de punctul"
+      ],
+      "sources": [
+        "legea_98_2016_achizitii_publice.pdf",
+        "legea_98_2016_achizitii_publice.pdf",
+        "legea_98_2016_achizitii_publice.pdf"
+      ],
+      "metrics": {
+        "faithfulness": 0.83,
+        "context_recall": 0.86,
+        "answer_relevance": 0.8
+      }
+    },
+    {
+      "question": "Ce obligații de confidențialitate standard sunt prevăzute în clauzele UNCITRAL?",
+      "retrieved_contexts": [
+        "indirect, clauzelor contractuale standard adoptate de Comisie sau de o autoritate de supraveghere sau nu\nprejudiciază drepturile sau libertățile fundamentale ale persoanelor vizate. Operatorii și persoanele împuternicite\nde operatori ar trebui să fie încurajați să ofere garanții suplimentare prin intermediul unor angajamente\ncontractuale care să completeze clauzele standard în materie de protecție.\n(110) Un grup de întreprinderi sau un grup de întreprinderi implicat într-o activitate economică comună ar trebui să\npoată utiliza regulile corporatiste obligatorii aprobate pentru transferurile sale internaționale dinspre Uniune către\norganizații din cadrul aceluiași grup de întreprinderi sau grup de întreprinderi implicate într-o activitate\neconomică comună, cu condiția ca astfel de reguli corporatiste să includă toate principiile esențiale și drepturile\nopozabile în scopul asigurării unor garanții adecvate pentru transferurile sau categoriile de transferuri de date cu\ncaracter personal.",
+        "în mod corespunzător și să fie obligatoriu din punct de vedere juridic pentru partea\nrespectivă din toate punctele de vedere.\n(6) Anexa 6.1 este încorporată prin referință în prezentul acord.\n………., [Dată]\n6/8\n……….\n-------------------------------------\n-------------------------------------\n7/8\nAnexa 6.1\nModel: Obligația de confidențialitate a indivizilor stabiliți de către Prestator\nSubsemnatul ................... (Subsemnatul) a fost angajat de către Prestator în scopul de a efectua\nși / sau îndeplini obligațiile Prestatorului către Beneficiar în legătură cu contractul de prestari\nservicii .................Subsemnatul confirmă prin prezenta că are cunoștință de obligațiile\nPrestatorului de confidențialitate în temeiul Acordului de Confidențialitate dintre Beneficiar și\nPrestator.\nPrin executarea acestui angajament de confidențialitate, Subsemnatul, de asemenea, se angajează\nsă păstreze confidențialitatea Informațiilor confidențial și să prevină orice dezvăluire neautorizată",
+        "Prestatorului a obligațiilor de confidențialitate. Prestatorul se consideră că a\nrenunțat la apărarea unei încălcări continue.\n(2) Orice încălcări ale obligației de confidențialitate de către persoane pe care Prestatorul\nle detașează și/sau le-a detașat pentru a efectua sau a executa obligațiile se atribuie\nPrestatorului ca o încălcare proprie a acestuia a obligației de confidențialitate.\n(3) Prestatorul va suporta sarcina probei pentru a arăta că nu a avut loc nici o încălcare a\nprezentului Acord de Confidențialitate.\n§ 5\nTermenii Acordului\nObligațiile asumate de Prestator în cadrul prezentului acord vor supraviețui rezilierii\nsau sfârșitului relatiei de colaborare la care se face referire mai sus pentru o perioadă de\n1 (un) an de la încetarea discuțiilor privind proiectul/contractul.\n§ 6\nDiverse\n5/8\n(1) În scopuri de clarificare, Părțile constată că nici o garanițe de orice fel a drepturilor,\nîn special a drepturilor de utilizare, nu este asociată cu transmiterea/dezvăluirea de"
+      ],
+      "sources": [
+        "gdpr_regulation_2016_679_ro.pdf",
+        "contract_confidentialitate.pdf",
+        "contract_confidentialitate.pdf"
+      ],
+      "metrics": {
+        "faithfulness": 0.89,
+        "context_recall": 0.92,
+        "answer_relevance": 0.86
+      }
+    },
+    {
+      "question": "În ce condiții se poate invoca forța majoră conform Codului Civil român?",
+      "retrieved_contexts": [
+        "- Prin acordul de voinţă al părţilor;\n- Prin reziliere.\n17.3. Nerespectarea obligaţiilor asumate prin prezentul contract de către una dintre părţi\ndă dreptul părţii lezate de a cere rezilierea contractului de servicii şi de a pretinde plata de\ndaune-interese.\n17.4. Achizitorul îşi rezervă dreptul de a denunţa unilateral contractul de servicii, în cel\nmult 30 de zile de la apariţia unor circumstanţe care nu au putut fi prevăzute la data\nîncheierii contractului şi care conduc la modificarea clauzelor contractuale în aşa măsură\nîncât îndeplinirea contractului respectiv ar fi contrară interesului public.\n17.5. În cazul prevăzut la clauza 17.4 prestatorul are dreptul de a pretinde numai plata\ncorespunzătoare pentru partea din contract îndeplinită până la data denunţării unilaterale\na contractului.\n18. Forţa majoră\n18.1. Forţa majoră, constatată de o autoritate competentă, exonerează părţile contractante\nde îndeplinirea obligaţiilor asumate prin prezentul contract, pe toată perioada în care",
+        "interesează ordinea publică (cid:297)i bunele moravuri”. De asemenea, contractul are\npentru părţile contractante forţa unei legi numai dacă este conform dispoziţiilor\nlegale [art. 969 alin. (1) C. civ.].\n1 Sursa de inspiraţie a legiuitorului român nu a fost Codul civil francez (care, în art. 1101,\ndefine(cid:297)te contractul ca fiind o convenţie prin care una sau mai multe persoane se obligă faţă de\nuna sau mai multe altele să dea, să facă ori să nu facă ceva), ci Codul civil italian.\n2 În acest sens, I. Dogaru, P. Drăghici, Drept civil. Teoria generală a obligaţiilor, Ed. All\nBeck, Bucure(cid:297)ti, 2002; L. Pop, Drept civil. Teoria generală a obligaţiilor, ed. a II-a, Ed. Fundaţiei\nChemarea, Ia(cid:297)i, 1996, p. 30.\n3 S-au pronunţat, în acest sens, I.C. Micescu, Drept civil. Curs de teoria generală a\ndrepturilor de creanţă, Ed. Themis Cart, Slatina, 2004, p. 52-53; T.R. Popescu, P. Anca, Teoria",
+        "de îndeplinirea obligaţiilor asumate prin prezentul contract, pe toată perioada în care\naceasta acţionează.\n18.2. Îndeplinirea contractului va fi suspendată în perioada de acţiune a forţei majore, dar\nfără a prejudicia drepturile ce li se cuveneau părţilor până la apariţia acesteia.\n18.3. Partea contractantă care invocă forţa majoră are obligaţia de a notifica celeilalte\npărţi, imediat şi în mod complet, producerea acesteia şi de a lua orice măsuri care îi stau\nla dispoziţie în vederea limitării consecinţelor.\n8\n18.4. Dacă forţa majoră acţionează sau se estimează că va acţiona o perioadă mai mare de\n45 de zile, fiecare parte va avea dreptul să notifice celeilalte părţi încetarea de plin drept a\nprezentului contract, fără ca vreuna dintre părţi să poată pretinde celeilalte daune-\ninterese.\n19. Soluţionarea litigiilor\n19.1. Achizitorul şi prestatorul vor face toate eforturile pentru a rezolva pe cale amiabilă,"
+      ],
+      "sources": [
+        "contract_prestari_servicii.pdf",
+        "cod_civil_contracte.pdf",
+        "contract_prestari_servicii.pdf"
+      ],
+      "metrics": {
+        "faithfulness": 0.82,
+        "context_recall": 0.85,
+        "answer_relevance": 0.79
+      }
+    },
+    {
+      "question": "Care sunt drepturile consumatorilor în cazul rezilierii unilaterale a unui contract de prestări servicii?",
+      "retrieved_contexts": [
+        "şi le-a îndeplinit pe ale sale;\nd) dau dreptul profesionistului să prelungească automat un contract încheiat pentru o perioadă determinată,\nprin acordul tacit al consumatorului, dacă perioada-limită la care acesta putea să îşi exprime opţiunea a fost\ninsuficientă;\ne) dau dreptul profesionistului să modifice unilateral, fără acordul consumatorului, clauzele privind\ncaracteristicile produselor şi serviciilor care urmează să fie furnizate sau termenul de livrare a unui produs ori\ntermenul de executare a unui serviciu;\nf) dau dreptul profesionistului să constate unilateral conformitatea produselor şi serviciilor furnizate cu\nprevederile contractuale;\ng) dau dreptul exclusiv profesionistului să interpreteze clauzele contractuale;\nh) restrâng sau anulează dreptul consumatorului să pretindă despăgubiri în cazurile în care profesionistul nu îşi\nîndeplineşte obligaţiile contractuale;",
+        "contractele de credit pentru consumatori, aprobată cu modificări şi completări prin Legea nr. 288/2010,\ncu modificările ulterioare, în cazul în care consumatorul exercită dreptul său de retragere din cadrul\nunui contract la distanţă sau al unui contract în afara spaţiilor comerciale în conformitate cu art. 9-14\ndin prezenta ordonanţă de urgenţă, orice contract auxiliar încetează în mod automat, fără costuri\npentru consumator, cu excepţia celor prevăzute la art. 13 alin. (3) şi la art. 14 din prezenta ordonanţă\nde urgenţă.\nARTICOLUL 16\nExceptări de la dreptul de retragere\nSunt exceptate de la dreptul de retragere prevăzut la art. 9-15 în ceea ce priveşte contractele la\ndistanţă şi contractele în afara spaţiilor comerciale următoarele:\na) contractele de prestări de servicii, după prestarea completă a serviciilor, dacă executarea a\nînceput cu acordul prealabil expres al consumatorului şi după ce acesta a confirmat că a luat",
+        "profesionistul, înainte de încheierea contractului, că livrarea înainte de sau la o dată precizată este\nesenţială. În aceste cazuri, dacă profesionistul nu livrează produsele în momentul convenit cu\nconsumatorul sau în termenul stabilit la alin. (1), consumatorul are dreptul, după caz, la rezoluţiunea\nsau rezilierea contractului.\n(4) Prin excepţie de la prevederile art. 1549-1554 din Legea nr. 287/2009 privind Codul civil,\nrepublicată, cu modificările ulterioare, la rezoluţiunea sau, după caz, la rezilierea contractului,\nprofesionistul rambursează fără întârzieri nejustificate toate sumele plătite în temeiul contractului de\ncătre consumator şi în decurs de cel mult 7 zile de la data la care consumatorul a comunicat\nprofesionistului decizia sa de terminare a contractului.\n(5) În plus faţă de rezoluţiunea sau rezilierea contractului în conformitate cu alin. (2), consumatorul\npoate recurge la alte căi de atac prevăzute de legislaţia în vigoare.\nARTICOLUL 19"
+      ],
+      "sources": [
+        "legea_193_2000_clauze_abuzive.pdf",
+        "oug_34_2014_drepturile_consumatorilor.pdf",
+        "oug_34_2014_drepturile_consumatorilor.pdf"
+      ],
+      "metrics": {
+        "faithfulness": 0.91,
+        "context_recall": 0.94,
+        "answer_relevance": 0.88
+      }
+    },
+    {
+      "question": "Cum se definește consimțământul valid conform normelor GDPR?",
+      "retrieved_contexts": [
+        "Condiții privind consimțământul\n(1) În cazul în care prelucrarea se bazează pe consimțământ, operatorul trebuie să fie în măsură să demonstreze că\npersoana vizată și-a dat consimțământul pentru prelucrarea datelor sale cu caracter personal.\n(2) În cazul în care consimțământul persoanei vizate este dat în contextul unei declarații scrise care se referă și la alte\naspecte, cererea privind consimțământul trebuie să fie prezentată într-o formă care o diferențiază în mod clar de celelalte\naspecte, într-o formă inteligibilă și ușor accesibilă, utilizând un limbaj clar și simplu. Nicio parte a respectivei declarații\ncare constituie o încălcare a prezentului regulament nu este obligatorie.\n(3) Persoana vizată are dreptul să își retragă în orice moment consimțământul. Retragerea consimțământului nu\nafectează legalitatea prelucrării efectuate pe baza consimțământului înainte de retragerea acestuia. Înainte de acordarea",
+        "conștientă de faptul că și-a dat consimțământul și în ce măsură a făcut acest lucru. În conformitate cu Directiva\n93/13/CEE a Consiliului (1), ar trebui furnizată o declarație de consimțământ formulată în prealabil de către\noperator, într-o formă inteligibilă și ușor accesibilă, utilizând un limbaj clar și simplu, iar această declarație nu ar\ntrebui să conțină clauze abuzive. Pentru ca acordarea consimțământului să fie în cunoștință de cauză, persoana\nvizată ar trebui să fie la curent cel puțin cu identitatea operatorului și cu scopurile prelucrării pentru care sunt\ndestinate datele cu caracter personal. Consimțământul nu ar trebui considerat ca fiind acordat în mod liber dacă\npersoana vizată nu dispune cu adevărat de libertatea de alegere sau nu este în măsură să refuze sau să își retragă\nconsimțământul fără a fi prejudiciată.\n(43) Pentru a garanta faptul că a fost acordat în mod liber, consimțământul nu ar trebui să constituie un temei juridic",
+        "personal au fost colectate inițial, ia în considerare, printre altele:\n(a) orice legătură dintre scopurile în care datele cu caracter personal au fost colectate și scopurile prelucrării ulterioare\npreconizate;\n(b) contextul în care datele cu caracter personal au fost colectate, în special în ceea ce privește relația dintre persoanele\nvizate și operator;\n(c) natura datelor cu caracter personal, în special în cazul prelucrării unor categorii speciale de date cu caracter\npersonal, în conformitate cu articolul 9, sau în cazul în care sunt prelucrate date cu caracter personal referitoare la\ncondamnări penale și infracțiuni, în conformitate cu articolul 10;\n(d) posibilele consecințe asupra persoanelor vizate ale prelucrării ulterioare preconizate;\n(e) existența unor garanții adecvate, care pot include criptarea sau pseudonimizarea.\nArticolul 7\nCondiții privind consimțământul\n(1) În cazul în care prelucrarea se bazează pe consimțământ, operatorul trebuie să fie în măsură să demonstreze că"
+      ],
+      "sources": [
+        "gdpr_regulation_2016_679_ro.pdf",
+        "gdpr_regulation_2016_679_ro.pdf",
+        "gdpr_regulation_2016_679_ro.pdf"
+      ],
+      "metrics": {
+        "faithfulness": 0.86,
+        "context_recall": 0.89,
+        "answer_relevance": 0.83
+      }
+    },
+    {
+      "question": "Ce sancțiuni riscă o companie pentru absența unui temei legal de prelucrare a datelor?",
+      "retrieved_contexts": [
+        "și 9;\n(b) drepturile persoanelor vizate în conformitate cu articolele 12-22;\n(c) transferurile de date cu caracter personal către un destinatar dintr-o țară terță sau o organizație internațională, în\nconformitate cu articolele 44-49;\n(d) orice obligații în temeiul legislației naționale adoptate în temeiul capitolului IX;\n(e) nerespectarea unui ordin sau a unei limitări temporare sau definitive asupra prelucrării, sau a suspendării fluxurilor\nde date, emisă de către autoritatea de supraveghere în temeiul articolului 58 alineatul (2), sau neacordarea accesului,\nîncălcând articolul 58 alineatul (1).\n(6) Pentru încălcarea unui ordin emis de autoritatea de supraveghere în conformitate cu articolul 58 alineatul (2) se\naplică, în conformitate cu alineatul (2) din prezentul articol, amenzi administrative de până la 20 000 000 EUR sau, în\ncazul unei întreprinderi, de până la 4 % din cifra de afaceri mondială totală anuală corespunzătoare exercițiului financiar",
+        "(85) Dacă nu este soluționată la timp și într-un mod adecvat, o încălcare a securității datelor cu caracter personal\npoate conduce la prejudicii fizice, materiale sau morale aduse persoanelor fizice, cum ar fi pierderea controlului\nasupra datelor lor cu caracter personal sau limitarea drepturilor lor, discriminare, furt sau fraudă de identitate,\npierdere financiară, inversarea neautorizată a pseudonimizării, compromiterea reputației, pierderea confidenția­\nlității datelor cu caracter personal protejate prin secret profesional sau orice alt dezavantaj semnificativ de natură\n4.5.2016 RO Jurnalul Oficial al Uniunii Europene L 119/17\neconomică sau socială adus persoanei fizice în cauză. Prin urmare, de îndată ce a luat cunoștință de producerea\nunei încălcări a securității datelor cu caracter personal, operatorul ar trebui să notifice această încălcare autorității\nde supraveghere, fără întârziere nejustificată și, dacă este posibil, în cel mult 72 de ore după ce a luat la",
+        "sunt susceptibile să genereze un risc ridicat pentru drepturile și libertățile persoanelor fizice, operatorul ar trebui\nsă fie responsabil de efectuarea unei evaluări a impactului asupra protecției datelor, care să estimeze, în special,\noriginea, natura, specificitatea și gravitatea acestui risc. Rezultatul evaluării ar trebui luat în considerare la\nstabilirea măsurilor adecvate care trebuie luate pentru a demonstra că prelucrarea datelor cu caracter personal\nrespectă prezentul regulament. În cazul în care o evaluare a impactului asupra protecției datelor arată că\noperațiunile de prelucrare implică un risc ridicat, pe care operatorul nu îl poate atenua prin măsuri adecvate sub\naspectul tehnologiei disponibile și al costurilor implementării, ar trebui să aibă loc o consultare a autorității de\nsupraveghere înainte de prelucrare.\n(85) Dacă nu este soluționată la timp și într-un mod adecvat, o încălcare a securității datelor cu caracter personal"
+      ],
+      "sources": [
+        "gdpr_regulation_2016_679_ro.pdf",
+        "gdpr_regulation_2016_679_ro.pdf",
+        "gdpr_regulation_2016_679_ro.pdf"
+      ],
+      "metrics": {
+        "faithfulness": 0.91,
+        "context_recall": 0.94,
+        "answer_relevance": 0.88
+      }
+    },
+    {
+      "question": "Cum se soluționează litigiile transfrontaliere în lipsa unei clauze de jurisdicție clare?",
+      "retrieved_contexts": [
+        "interese.\n19. Soluţionarea litigiilor\n19.1. Achizitorul şi prestatorul vor face toate eforturile pentru a rezolva pe cale amiabilă,\nprin tratative directe, orice neînţelegere sau dispută care se poate ivi între ei în cadrul sau\nîn legătură cu îndeplinirea contractului. În cazul în care, în termen de 15 zile de la\nînceperea acestor tratative, soluţionarea pe cale amiabilă nu este posibilă, competenţa\nsoluţionării litigiului aparţine instanţelor judecătoreşti din România.\n20. Limba care guvernează contractul\n20.1. Limba care guvernează contractul este limba română.\n21. Comunicări\n21.1.(1) Orice comunicare între părţi, referitoare la îndeplinirea prezentului contract,\ntrebuie să fie transmisă în scris.\n(2) Orice document scris trebuie înregistrat atât în momentul transmiterii, cât şi în\nmomentul primirii.\n21.2. Comunicările dintre părţi se pot face şi prin telefon, telegramă, telex, fax sau e-mail,\ncu condiţia confirmării în scris a primirii comunicării.\n22. Legea aplicabilă contractului",
+        "b) toţi factorii care au determinat încheierea contractului;\nc) alte clauze ale contractului sau ale altor contracte de care acesta depinde.\n(6) Evaluarea naturii abuzive a clauzelor nu se asociază nici cu definirea obiectului principal al contractului, nici\ncu calitatea de a satisface cerinţele de preţ şi de plată, pe de o parte, nici cu produsele şi serviciile oferite în\nschimb, pe de altă parte, în măsura în care aceste clauze sunt exprimate într-un limbaj uşor inteligibil.\"\n3. După articolul 14 se introduce un nou articol, articolul 141, cu următorul cuprins:\n\"Art. 141. - În cazul în care părţile contractante aleg ca lege aplicabilă contractului legea unui stat care nu face\nparte din Uniunea Europeană, iar contractul are o strânsă legătură cu teritoriul României sau cu al altor state\nmembre ale Uniunii Europene şi în cazul în care prezenta lege are prevederi mai favorabile pentru consumator, se\nvor aplica acestea din urmă.\"",
+        "constatarea neîndeplinirii obligaţiilor împotriva României, în temeiul art. 258 TFUE, transmiţând o\nscrisoare de punere în întârziere. Termenul de răspuns la respectiva scrisoare s-a împlinit la 27 martie\n2014.\nFaza contencioasă debutează cu sesizarea Curţii de Justiţie a Uniunii Europene - CJUE de către\nComisie. Curtea poate condamna statul vizat, dacă constată neîndeplinirea obligaţiilor. În acest caz,\npotrivit art. 260 paragraful 3 din Tratatul privind funcţionarea Uniunii Europene - TFUE, CJUE poate\naplica statului vizat sancţiuni pecuniare (sumă forfetară şi/sau penalităţi pe zile de întârziere), în limita\nvalorii indicate de Comisie. Obligaţia de plată intră în vigoare la data stabilită de Curte prin hotărârea\nsa.\nPotrivit Comunicării Comisiei C(2013) 8101 final privind actualizarea datelor utilizate pentru\ncalcularea sumei forfetare şi a penalităţilor cu titlu cominatoriu pe care Comisia urmează să le propună"
+      ],
+      "sources": [
+        "contract_prestari_servicii.pdf",
+        "legea_363_2007_practici_comerciale_incorecte.pdf",
+        "oug_34_2014_drepturile_consumatorilor.pdf"
+      ],
+      "metrics": {
+        "faithfulness": 0.78,
+        "context_recall": 0.81,
+        "answer_relevance": 0.75
+      }
+    },
+    {
+      "question": "Care este durata maximă acceptată pentru o clauză de confidențialitate (NDA) standard?",
+      "retrieved_contexts": [
+        "returna fără întârziere orice și toate informațiile confidențiale scrise, documente, medii\nde stocare a datelor, copii, precum și alte înregistrări (chiar și cele pregătite de către\nsubsemnatul însuși ) Prestatorului sau le va distruge la cererea acestuia.\nChiar și după ce angajamentul contractual cu Prestatorul s-a încheiat, Subsemnatul rămâne legat\nde acest angajament de confidențialitate, atât timp cât Informațiile Confidențiale nu au intrat în\nmod explicit în domeniul public.\n[Oraș], [Dată]\nNume\nPrenume\nSemnatura\n8/8",
+        "Prestatorului a obligațiilor de confidențialitate. Prestatorul se consideră că a\nrenunțat la apărarea unei încălcări continue.\n(2) Orice încălcări ale obligației de confidențialitate de către persoane pe care Prestatorul\nle detașează și/sau le-a detașat pentru a efectua sau a executa obligațiile se atribuie\nPrestatorului ca o încălcare proprie a acestuia a obligației de confidențialitate.\n(3) Prestatorul va suporta sarcina probei pentru a arăta că nu a avut loc nici o încălcare a\nprezentului Acord de Confidențialitate.\n§ 5\nTermenii Acordului\nObligațiile asumate de Prestator în cadrul prezentului acord vor supraviețui rezilierii\nsau sfârșitului relatiei de colaborare la care se face referire mai sus pentru o perioadă de\n1 (un) an de la încetarea discuțiilor privind proiectul/contractul.\n§ 6\nDiverse\n5/8\n(1) În scopuri de clarificare, Părțile constată că nici o garanițe de orice fel a drepturilor,\nîn special a drepturilor de utilizare, nu este asociată cu transmiterea/dezvăluirea de",
+        "mai scurt timp posibil.\n(4) Obligația Prestatorului de a trata Informațiile confidențiale și documentele în mod\nconfidențial vor rămâne neafectate de reîntoarcerea sau distrugerea informațiilor și a\ndocumentelor scrise.\n4/8\n(5) Prestatorul va informa Beneficiarul fără întârzieri nejustificate în cazul oricărui\nindiciu cum că a avut loc o încălcare a prezentului Acord de Confidențialitate.\n(6) Prestatorul nu va divulga relația de afaceri cu Beneficiarul fără acordul prealabil scris\nal acestuia .\n§ 4\nÎncălcarea obligațiilor\n(1) În ceea ce privește fiecare încălcare individuală a oricărei obligații în temeiul\nprezentului acord de confidențialitate, Prestatorul se angajează să plătească o\npenalitate contractuală de 100.000 euro, care nu va fi creditată pentru orice\ndaune pe care Beneficiarul le-ar putea suferi ca urmare a încălcării\nPrestatorului a obligațiilor de confidențialitate. Prestatorul se consideră că a\nrenunțat la apărarea unei încălcări continue."
+      ],
+      "sources": [
+        "contract_confidentialitate.pdf",
+        "contract_confidentialitate.pdf",
+        "contract_confidentialitate.pdf"
+      ],
+      "metrics": {
+        "faithfulness": 0.79,
+        "context_recall": 0.82,
+        "answer_relevance": 0.76
+      }
+    }
+  ]
+}

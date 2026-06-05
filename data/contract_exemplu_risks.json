@@ -1,0 +1,18 @@
+{
+  "contract_id": "contract_exemplu.pdf",
+  "clauses_analyzed": [
+    {
+      "clause_id": "art_4_clauza_1",
+      "risk_level": "RIDICAT",
+      "issues": [
+        "Clauza de penalități de 10% pe zi din suma totală restantă este excesivă și contravine principiilor legale privind penalitățile, care sunt reglementate de legislația în vigoare.",
+        "Conform contextului legal, penalitățile pe zile de întârziere nu pot depăși sumele stabilite de legislația aplicabilă, iar o penalitate de 10% pe zi este considerată abuzivă."
+      ],
+      "references": [
+        "contract_prestari_servicii.pdf",
+        "oug_34_2014_drepturile_consumatorilor.pdf"
+      ],
+      "context_was_empty": false
+    }
+  ]
+}
