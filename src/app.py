@@ -1,5 +1,11 @@
 # src/app.py
 
+from dotenv import load_dotenv
+from pathlib import Path
+
+# Caută .env în rădăcina proiectului indiferent de unde e rulat scriptul
+load_dotenv(dotenv_path=Path(__file__).parent.parent / ".env")
+
 import streamlit as st
 import tempfile
 import os
@@ -114,7 +120,7 @@ if analyze_btn and uploaded_file is not None:
         final_state = run_workflow(tmp_path)
 
         progress.progress(100, text="✅ Analiză completă!")
-        st.session_state.final_state = final_state
+        st.session_state.final_state = final_state.rerun()
 
         # Citim raportul Markdown generat
         report_path = final_state.get("report_path", "")

@@ -1,40 +1,51 @@
 import os
+from pathlib import Path
+
 import pdfplumber
 
 
 def load_corpus(corpus_dir: str):
+    """
+    Parcurge recursiv folderul corpus/ si extrage textul din toate PDF-urile gasite.
+
+    Returneaza o lista de dictionare cu:
+    - text: continutul extras din PDF
+    - metadata: informatii utile pentru citarea sursei in RAG
+    """
+
     documents = []
+    corpus_path = Path(corpus_dir)
 
-    for root, dirs, files in os.walk(corpus_dir):
-        for file in files:
+    if not corpus_path.exists():
+        raise FileNotFoundError(f"Folderul corpus nu exista: {corpus_dir}")
 
-            if not file.lower().endswith(".pdf"):
-                continue
+    for pdf_path in corpus_path.rglob("*.pdf"):
+        try:
+            with pdfplumber.open(pdf_path) as pdf:
+                text_parts = []
 
-            path = os.path.join(root, file)
+                for page in pdf.pages:
+                    page_text = page.extract_text() or ""
+                    if page_text.strip():
+                        text_parts.append(page_text)
 
-            try:
-                with pdfplumber.open(path) as pdf:
+                full_text = "\n".join(text_parts).strip()
 
-                    text = ""
+                if not full_text:
+                    print(f"Atentie: text gol extras din {pdf_path}")
+                    continue
 
-                    for page in pdf.pages:
-                        page_text = page.extract_text()
+                documents.append({
+                    "text": full_text,
+                    "metadata": {
+                        "source": pdf_path.name,
+                        "path": str(pdf_path),
+                        "type": pdf_path.parent.name,
+                        "page_count": len(pdf.pages)
+                    }
+                })
 
-                        if page_text:
-                            text += page_text + "\n"
-
-                    documents.append({
-                        "text": text,
-                        "metadata": {
-                            "source": file,
-                            "path": path,
-                            "type": os.path.basename(root),
-                            "page_count": len(pdf.pages)
-                        }
-                    })
-
-            except Exception as e:
-                print(f"Eroare la {path}: {e}")
+        except Exception as e:
+            print(f"Eroare la citirea PDF-ului {pdf_path}: {e}")
 
     return documents
