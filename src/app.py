@@ -13,9 +13,6 @@ from pathlib import Path
 
 from src.graph.workflow import run_workflow, export_workflow_graph
 
-# ---------------------------------------------------------------------------
-# Configurare pagină
-# ---------------------------------------------------------------------------
 
 st.set_page_config(
     page_title="Analiză Juridică AI",
@@ -26,9 +23,6 @@ st.set_page_config(
 st.title("⚖️ Sistem de Analiză Juridică AI")
 st.caption("Încarcă un contract PDF și primești un raport cu clauzele riscante și reformulările propuse.")
 
-# ---------------------------------------------------------------------------
-# Sidebar — controale
-# ---------------------------------------------------------------------------
 
 with st.sidebar:
     st.header("⚙️ Configurare")
@@ -67,10 +61,6 @@ with st.sidebar:
         "- Corpus juridic: GDPR, Legea 98/2016, UNCITRAL, ANPC"
     )
 
-# ---------------------------------------------------------------------------
-# Zona principală
-# ---------------------------------------------------------------------------
-
 # Dacă nu există nimic în session_state, inițializăm
 if "final_state" not in st.session_state:
     st.session_state.final_state = None
@@ -94,23 +84,18 @@ RISK_EMOJI = {
     "NECUNOSCUT": "❓",
 }
 
-# ---------------------------------------------------------------------------
-# Logica de analiză — rulează doar la click, rezultatul se păstrează
-# ---------------------------------------------------------------------------
 
 if analyze_btn and uploaded_file is not None:
-    # Salvăm PDF-ul într-un fișier temporar
+
     with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
         tmp.write(uploaded_file.read())
         tmp_path = tmp.name
 
     try:
-        # Bara de progres cu mesaje per agent
+
         progress = st.progress(0, text="Se inițializează pipeline-ul...")
 
         progress.progress(10, text="📄 Agent Parser: se extrag clauzele din PDF...")
-        # run_workflow face totul intern; afișăm progresul între noduri
-        # prin actualizarea barei manual după ce știm că a trecut de fiecare nod
 
         progress.progress(30, text="🔍 Agent RAG: se recuperează contextul juridic...")
         progress.progress(50, text="⚖️ Agent Risk Assessment: se evaluează riscurile...")
@@ -122,7 +107,7 @@ if analyze_btn and uploaded_file is not None:
         progress.progress(100, text="✅ Analiză completă!")
         st.session_state.final_state = final_state.rerun()
 
-        # Citim raportul Markdown generat
+
         report_path = final_state.get("report_path", "")
         if report_path and Path(report_path).exists():
             with open(report_path, "r", encoding="utf-8") as f:
@@ -136,14 +121,11 @@ if analyze_btn and uploaded_file is not None:
 elif analyze_btn and uploaded_file is None:
     st.warning("Te rog încarcă un fișier PDF înainte de a apăsa Analizează.")
 
-# ---------------------------------------------------------------------------
-# Afișarea rezultatelor (din session_state — nu se re-rulează la interacțiuni)
-# ---------------------------------------------------------------------------
 
 if st.session_state.final_state is not None:
     state = st.session_state.final_state
 
-    # Banner alertă risc ridicat
+
     if state.get("high_risk_alert"):
         st.warning(
             "⚠️ **ALERTĂ: Contractul conține mai multe clauze cu risc RIDICAT!** "
@@ -151,9 +133,6 @@ if st.session_state.final_state is not None:
             icon="⚠️",
         )
 
-    # ---------------------------------------------------------------------------
-    # Tabel sumar clauze
-    # ---------------------------------------------------------------------------
     st.subheader("📊 Sumar clauze analizate")
 
     risk_map = state.get("risk_map", {})
@@ -203,9 +182,7 @@ if st.session_state.final_state is not None:
 
     st.divider()
 
-    # ---------------------------------------------------------------------------
-    # Expander per clauză riscantă (RIDICAT și MEDIU)
-    # ---------------------------------------------------------------------------
+
     risky_risks = {
         cid: r for cid, r in risk_map.items()
         if r.risk_level.value in ("RIDICAT", "MEDIU")
@@ -221,7 +198,7 @@ if st.session_state.final_state is not None:
             rec = rec_map.get(clause_id)
 
             with st.expander(f"{emoji} {clause_id} — {risk.risk_level.value}", expanded=False):
-                # Text original
+
                 if rec:
                     st.markdown("**Text original:**")
                     st.markdown(
@@ -230,19 +207,19 @@ if st.session_state.final_state is not None:
                         unsafe_allow_html=True,
                     )
 
-                # Probleme identificate
+
                 if risk.issues:
                     st.markdown("**Probleme identificate:**")
                     for issue in risk.issues:
                         st.markdown(f"- {issue}")
 
-                # Referințe legislative
+
                 if risk.references:
                     st.markdown("**Referințe legislative:**")
                     for ref in risk.references:
                         st.markdown(f"- `{ref}`")
 
-                # Reformulare propusă
+
                 if rec and rec.reformulated_text:
                     st.markdown("**Reformulare propusă:**")
                     st.markdown(
@@ -267,9 +244,7 @@ if st.session_state.final_state is not None:
 
     st.divider()
 
-    # ---------------------------------------------------------------------------
-    # Buton descărcare raport Markdown
-    # ---------------------------------------------------------------------------
+
     if st.session_state.report_content:
         st.subheader("📥 Descarcă raportul")
         st.download_button(
@@ -280,9 +255,7 @@ if st.session_state.final_state is not None:
             use_container_width=True,
         )
 
-    # ---------------------------------------------------------------------------
-    # Vizualizări logs (dacă există)
-    # ---------------------------------------------------------------------------
+
     st.divider()
     st.subheader("📈 Vizualizări")
 
@@ -302,7 +275,7 @@ if st.session_state.final_state is not None:
                 st.rerun()
 
 else:
-    # Stare inițială — nicio analiză rulată încă
+
     st.info("👈 Încarcă un PDF din sidebar și apasă **Analizează contractul** pentru a începe.")
 
     st.markdown("""

@@ -30,9 +30,6 @@ UNKNOWN_THRESHOLD = 0.40
 HIGH_RISK_THRESHOLD = 2
 
 
-# ---------------------------------------------------------------------------
-# Starea grafului — TypedDict cu toate câmpurile produse de noduri
-# ---------------------------------------------------------------------------
 
 class WorkflowState(TypedDict):
     pdf_path: str
@@ -44,10 +41,6 @@ class WorkflowState(TypedDict):
     report_path: str
     iteration: int
 
-
-# ---------------------------------------------------------------------------
-# Logger helper — scrie în logs/run_<timestamp>.json
-# ---------------------------------------------------------------------------
 
 class WorkflowLogger:
     def __init__(self):
@@ -70,11 +63,6 @@ class WorkflowLogger:
         with open(self.log_path, "w", encoding="utf-8") as f:
             json.dump(self.entries, f, ensure_ascii=False, indent=2)
         print(f"   [LOG] Jurnal salvat la: {self.log_path}")
-
-
-# ---------------------------------------------------------------------------
-# Nodurile grafului
-# ---------------------------------------------------------------------------
 
 
 
@@ -308,10 +296,6 @@ def make_compile_report(logger: WorkflowLogger):
 
     return compile_report
 
-
-# ---------------------------------------------------------------------------
-# Construirea grafului LangGraph
-# ---------------------------------------------------------------------------
 
 def build_workflow() -> StateGraph:
     """

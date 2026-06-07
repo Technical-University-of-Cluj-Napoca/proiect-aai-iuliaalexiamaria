@@ -1,19 +1,14 @@
-# docker-compose.yml
+
 
 services:
   app:
     build: .
     ports:
       - "8501:8501"
-    # Cheia API vine din .env — nu e hardcodată în imagine
     env_file:
       - .env
     volumes:
-      # Vectorstore-ul e persistent — nu se re-indexează la fiecare docker compose up
       - ./vectorstore:/app/vectorstore
-      # Logurile sunt persistente între rulări
       - ./logs:/app/logs
-      # Data (rapoarte generate) e persistentă
       - ./data:/app/data
-    # Repornește automat dacă containerul cade
     restart: unless-stopped
