@@ -1,8 +1,6 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/tDAXz5sa)
-
 # ⚖️ Sistem de Analiză Juridică AI
 
-> Proiect Agentic AI — Universitatea Tehnică din Cluj-Napoca, Sisteme Inteligente, Mai 2026
+> Proiect Agentic AI - Universitatea Tehnică din Cluj-Napoca, Sisteme Inteligente, Mai 2026
 
 Sistem multi-agent capabil să analizeze contracte juridice în limba română, să identifice clauze riscante sau non-conforme cu legislația în vigoare și să propună reformulări argumentate.
 
@@ -12,9 +10,9 @@ Sistem multi-agent capabil să analizeze contracte juridice în limba română, 
 
 Sistemul este construit pe trei piloni:
 
-- **RAG (Retrieval-Augmented Generation)** — răspunsurile sunt fundamentate pe un corpus juridic real: GDPR, Legea 98/2016, clauze UNCITRAL, hotărâri ANPC și modele de contracte publice din România
-- **Sistem multi-agent** — sarcina complexă de analiză juridică este descompusă în agenți specializați, fiecare responsabil de o etapă distinctă
-- **Orchestrare LangGraph** — agenții comunică prin intermediul unui graf de stări cu tranziții condiționale
+- **RAG (Retrieval-Augmented Generation)** - răspunsurile sunt fundamentate pe un corpus juridic real: GDPR, Legea 98/2016, clauze UNCITRAL, hotărâri ANPC și modele de contracte publice din România
+- **Sistem multi-agent** - sarcina complexă de analiză juridică este descompusă în agenți specializați, fiecare responsabil de o etapă distinctă
+- **Orchestrare LangGraph** - agenții comunică prin intermediul unui graf de stări cu tranziții condiționale
 
 ### Fluxul pipeline-ului
 
@@ -116,7 +114,6 @@ uv sync
 **3. Configurează cheia API:**
 ```bash
 cp .env.example .env
-# Editează .env și adaugă cheia ta OpenAI
 ```
 
 `.env` trebuie să conțină:
@@ -178,12 +175,12 @@ Aplicația va fi disponibilă la [http://localhost:8501](http://localhost:8501).
 
 ## 🔧 Tehnologii folosite
 
-- **LangChain** — framework pentru pipeline RAG și prompt management
-- **LangGraph** — orchestrare multi-agent cu graf de stări
-- **ChromaDB** — bază de date vectorială pentru indexare semantică
-- **OpenAI GPT-4o-mini** — model LLM pentru evaluare risc și reformulări
-- **Streamlit** — interfață grafică web
-- **pdfplumber** — extragere text din PDF-uri
-- **RAGAS** — evaluare calitate RAG
-- **Docker** — containerizare și portabilitate
+- **LangChain** - framework pentru pipeline RAG și prompt management
+- **LangGraph** - orchestrare multi-agent cu graf de stări
+- **ChromaDB** - bază de date vectorială pentru indexare semantică
+- **OpenAI GPT-4o-mini** - model LLM pentru evaluare risc și reformulări
+- **Streamlit** - interfață grafică web
+- **pdfplumber** - extragere text din PDF-uri
+- **RAGAS** - evaluare calitate RAG
+- **Docker** - containerizare și portabilitate
 
