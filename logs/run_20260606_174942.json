@@ -1,0 +1,44 @@
+[
+  {
+    "node": "parse_document",
+    "duration_sec": 1.476,
+    "tokens_estimate": 0,
+    "clauses_found": 55,
+    "sections": 16
+  },
+  {
+    "node": "retrieve_context",
+    "duration_sec": 12.664,
+    "tokens_estimate": 0,
+    "clauses_processed": 55,
+    "iteration": 0
+  },
+  {
+    "node": "assess_risk",
+    "duration_sec": 128.656,
+    "tokens_estimate": 0,
+    "clauses_assessed": 55,
+    "high_risk": 38,
+    "unknown": 0
+  },
+  {
+    "node": "flag_high_risk",
+    "duration_sec": 0.0,
+    "tokens_estimate": 0,
+    "high_risk_count": 38,
+    "alert_triggered": true
+  },
+  {
+    "node": "generate_recommendations",
+    "duration_sec": 451.448,
+    "tokens_estimate": 0,
+    "total": 55,
+    "with_reformulation": 41
+  },
+  {
+    "node": "compile_report",
+    "duration_sec": 0.006,
+    "tokens_estimate": 0,
+    "report_path": "data/raport_20260606_175939.md"
+  }
+]
